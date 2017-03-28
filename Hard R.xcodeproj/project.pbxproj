@@ -1,0 +1,718 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		756300511E830725003214DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 756300501E830725003214DE /* main.m */; };
+		756300541E830725003214DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 756300531E830725003214DE /* AppDelegate.m */; };
+		756300571E830725003214DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 756300561E830725003214DE /* ViewController.m */; };
+		7563005A1E830725003214DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 756300581E830725003214DE /* Main.storyboard */; };
+		7563005C1E830725003214DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7563005B1E830725003214DE /* Assets.xcassets */; };
+		7563005F1E830725003214DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7563005D1E830725003214DE /* LaunchScreen.storyboard */; };
+		7563006A1E830725003214DE /* Hard_RTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 756300691E830725003214DE /* Hard_RTests.m */; };
+		756300751E830725003214DE /* Hard_RUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 756300741E830725003214DE /* Hard_RUITests.m */; };
+		756300851E830DD2003214DE /* mainMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 756300841E830DD2003214DE /* mainMenu.m */; };
+		756300891E8310BD003214DE /* centerPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 756300881E8310BD003214DE /* centerPoint.m */; };
+		7563008C1E831DF8003214DE /* viewHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 7563008B1E831DF8003214DE /* viewHandler.m */; };
+		7563008F1E8321B3003214DE /* studentLoginMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 7563008E1E8321B3003214DE /* studentLoginMenu.m */; };
+		756300921E8321DE003214DE /* studentData.m in Sources */ = {isa = PBXBuildFile; fileRef = 756300911E8321DE003214DE /* studentData.m */; };
+		756300961E8323B1003214DE /* passwordData.m in Sources */ = {isa = PBXBuildFile; fileRef = 756300951E8323B1003214DE /* passwordData.m */; };
+		7563009A1E833B0D003214DE /* studentAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 756300991E833B0D003214DE /* studentAuth.m */; };
+		7563009D1E834440003214DE /* quizScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 7563009C1E834440003214DE /* quizScreen.m */; };
+		756300A11E835A4E003214DE /* quizSlide.m in Sources */ = {isa = PBXBuildFile; fileRef = 756300A01E835A4E003214DE /* quizSlide.m */; };
+		756300A41E835A77003214DE /* quizData.m in Sources */ = {isa = PBXBuildFile; fileRef = 756300A31E835A77003214DE /* quizData.m */; };
+		756300A71E8419B4003214DE /* questionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 756300A61E8419B4003214DE /* questionView.m */; };
+		756300AA1E841A0E003214DE /* questionGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 756300A91E841A0E003214DE /* questionGenerator.m */; };
+		756300AE1E841B47003214DE /* randomNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 756300AD1E841B47003214DE /* randomNumber.m */; };
+		756300B11E84B236003214DE /* questionMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = 756300B01E84B236003214DE /* questionMarker.m */; };
+		756300B41E8570E4003214DE /* questionData.m in Sources */ = {isa = PBXBuildFile; fileRef = 756300B31E8570E4003214DE /* questionData.m */; };
+		756300B71E857D02003214DE /* quizFinished.m in Sources */ = {isa = PBXBuildFile; fileRef = 756300B61E857D02003214DE /* quizFinished.m */; };
+		756300BB1E85A525003214DE /* teacherLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 756300BA1E85A525003214DE /* teacherLogin.m */; };
+		7580A6D31E8821170052FD97 /* classSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 7580A6D21E8821170052FD97 /* classSelector.m */; };
+		7580A6D61E8826CE0052FD97 /* classView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7580A6D51E8826CE0052FD97 /* classView.m */; };
+		7580A6D91E888ECD0052FD97 /* testResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 7580A6D81E888ECD0052FD97 /* testResult.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		756300661E830725003214DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 756300441E830724003214DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7563004B1E830724003214DE;
+			remoteInfo = "Hard R";
+		};
+		756300711E830725003214DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 756300441E830724003214DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7563004B1E830724003214DE;
+			remoteInfo = "Hard R";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7563004C1E830725003214DE /* Hard R.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hard R.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		756300501E830725003214DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		756300521E830725003214DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		756300531E830725003214DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		756300551E830725003214DE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		756300561E830725003214DE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		756300591E830725003214DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7563005B1E830725003214DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7563005E1E830725003214DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		756300601E830725003214DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		756300651E830725003214DE /* Hard RTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hard RTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		756300691E830725003214DE /* Hard_RTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hard_RTests.m; sourceTree = "<group>"; };
+		7563006B1E830725003214DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		756300701E830725003214DE /* Hard RUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hard RUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		756300741E830725003214DE /* Hard_RUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hard_RUITests.m; sourceTree = "<group>"; };
+		756300761E830725003214DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		756300831E830DD2003214DE /* mainMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mainMenu.h; path = UIMenus/mainMenu.h; sourceTree = "<group>"; };
+		756300841E830DD2003214DE /* mainMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = mainMenu.m; path = UIMenus/mainMenu.m; sourceTree = "<group>"; };
+		756300871E8310BD003214DE /* centerPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = centerPoint.h; path = "UI He/centerPoint.h"; sourceTree = "<group>"; };
+		756300881E8310BD003214DE /* centerPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = centerPoint.m; path = "UI He/centerPoint.m"; sourceTree = "<group>"; };
+		7563008A1E831DF8003214DE /* viewHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = viewHandler.h; path = "UI He/viewHandler.h"; sourceTree = "<group>"; };
+		7563008B1E831DF8003214DE /* viewHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = viewHandler.m; path = "UI He/viewHandler.m"; sourceTree = "<group>"; };
+		7563008D1E8321B3003214DE /* studentLoginMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = studentLoginMenu.h; path = UIMenus/studentLoginMenu.h; sourceTree = "<group>"; };
+		7563008E1E8321B3003214DE /* studentLoginMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = studentLoginMenu.m; path = UIMenus/studentLoginMenu.m; sourceTree = "<group>"; };
+		756300901E8321DE003214DE /* studentData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = studentData.h; path = "App Data/studentData.h"; sourceTree = "<group>"; };
+		756300911E8321DE003214DE /* studentData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = studentData.m; path = "App Data/studentData.m"; sourceTree = "<group>"; };
+		756300941E8323B1003214DE /* passwordData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = passwordData.h; path = "App Data/passwordData.h"; sourceTree = "<group>"; };
+		756300951E8323B1003214DE /* passwordData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = passwordData.m; path = "App Data/passwordData.m"; sourceTree = "<group>"; };
+		756300981E833B0D003214DE /* studentAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = studentAuth.h; path = Authorisation/studentAuth.h; sourceTree = "<group>"; };
+		756300991E833B0D003214DE /* studentAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = studentAuth.m; path = Authorisation/studentAuth.m; sourceTree = "<group>"; };
+		7563009B1E834440003214DE /* quizScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = quizScreen.h; path = UIMenus/quizScreen.h; sourceTree = "<group>"; };
+		7563009C1E834440003214DE /* quizScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = quizScreen.m; path = UIMenus/quizScreen.m; sourceTree = "<group>"; };
+		7563009F1E835A4E003214DE /* quizSlide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = quizSlide.h; path = Quiz/quizSlide.h; sourceTree = "<group>"; };
+		756300A01E835A4E003214DE /* quizSlide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = quizSlide.m; path = Quiz/quizSlide.m; sourceTree = "<group>"; };
+		756300A21E835A77003214DE /* quizData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = quizData.h; path = "App Data/quizData.h"; sourceTree = "<group>"; };
+		756300A31E835A77003214DE /* quizData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = quizData.m; path = "App Data/quizData.m"; sourceTree = "<group>"; };
+		756300A51E8419B4003214DE /* questionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = questionView.h; path = Quiz/questionView.h; sourceTree = "<group>"; };
+		756300A61E8419B4003214DE /* questionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = questionView.m; path = Quiz/questionView.m; sourceTree = "<group>"; };
+		756300A81E841A0E003214DE /* questionGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = questionGenerator.h; path = Quiz/questionGenerator.h; sourceTree = "<group>"; };
+		756300A91E841A0E003214DE /* questionGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = questionGenerator.m; path = Quiz/questionGenerator.m; sourceTree = "<group>"; };
+		756300AC1E841B47003214DE /* randomNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = randomNumber.h; path = "Math Helper/randomNumber.h"; sourceTree = "<group>"; };
+		756300AD1E841B47003214DE /* randomNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = randomNumber.m; path = "Math Helper/randomNumber.m"; sourceTree = "<group>"; };
+		756300AF1E84B236003214DE /* questionMarker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = questionMarker.h; path = Quiz/questionMarker.h; sourceTree = "<group>"; };
+		756300B01E84B236003214DE /* questionMarker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = questionMarker.m; path = Quiz/questionMarker.m; sourceTree = "<group>"; };
+		756300B21E8570E4003214DE /* questionData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = questionData.h; path = Quiz/questionData.h; sourceTree = "<group>"; };
+		756300B31E8570E4003214DE /* questionData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = questionData.m; path = Quiz/questionData.m; sourceTree = "<group>"; };
+		756300B51E857D02003214DE /* quizFinished.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = quizFinished.h; path = Quiz/quizFinished.h; sourceTree = "<group>"; };
+		756300B61E857D02003214DE /* quizFinished.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = quizFinished.m; path = Quiz/quizFinished.m; sourceTree = "<group>"; };
+		756300B91E85A525003214DE /* teacherLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = teacherLogin.h; path = "Teacher Menu/teacherLogin.h"; sourceTree = "<group>"; };
+		756300BA1E85A525003214DE /* teacherLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = teacherLogin.m; path = "Teacher Menu/teacherLogin.m"; sourceTree = "<group>"; };
+		7580A6D11E8821170052FD97 /* classSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = classSelector.h; path = "Teacher Menu/classSelector.h"; sourceTree = "<group>"; };
+		7580A6D21E8821170052FD97 /* classSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = classSelector.m; path = "Teacher Menu/classSelector.m"; sourceTree = "<group>"; };
+		7580A6D41E8826CE0052FD97 /* classView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = classView.h; path = "Teacher Menu/classView.h"; sourceTree = "<group>"; };
+		7580A6D51E8826CE0052FD97 /* classView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = classView.m; path = "Teacher Menu/classView.m"; sourceTree = "<group>"; };
+		7580A6D71E888ECD0052FD97 /* testResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = testResult.h; path = "Teacher Menu/testResult.h"; sourceTree = "<group>"; };
+		7580A6D81E888ECD0052FD97 /* testResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = testResult.m; path = "Teacher Menu/testResult.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		756300491E830724003214DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		756300621E830725003214DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7563006D1E830725003214DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		756300431E830724003214DE = {
+			isa = PBXGroup;
+			children = (
+				7563004E1E830725003214DE /* Hard R */,
+				756300681E830725003214DE /* Hard RTests */,
+				756300731E830725003214DE /* Hard RUITests */,
+				7563004D1E830725003214DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7563004D1E830725003214DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7563004C1E830725003214DE /* Hard R.app */,
+				756300651E830725003214DE /* Hard RTests.xctest */,
+				756300701E830725003214DE /* Hard RUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7563004E1E830725003214DE /* Hard R */ = {
+			isa = PBXGroup;
+			children = (
+				756300B81E85A10D003214DE /* Teacher Menu */,
+				756300AB1E841AC2003214DE /* Math Helper */,
+				7563009E1E835A20003214DE /* Quiz  */,
+				756300971E833AF3003214DE /* Authorisation */,
+				756300931E8321E6003214DE /* Data */,
+				756300861E830DE7003214DE /* UI Handler */,
+				756300821E830DB4003214DE /* UIMenus */,
+				756300521E830725003214DE /* AppDelegate.h */,
+				756300531E830725003214DE /* AppDelegate.m */,
+				756300551E830725003214DE /* ViewController.h */,
+				756300561E830725003214DE /* ViewController.m */,
+				756300581E830725003214DE /* Main.storyboard */,
+				7563005B1E830725003214DE /* Assets.xcassets */,
+				7563005D1E830725003214DE /* LaunchScreen.storyboard */,
+				756300601E830725003214DE /* Info.plist */,
+				7563004F1E830725003214DE /* Supporting Files */,
+			);
+			path = "Hard R";
+			sourceTree = "<group>";
+		};
+		7563004F1E830725003214DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				756300501E830725003214DE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		756300681E830725003214DE /* Hard RTests */ = {
+			isa = PBXGroup;
+			children = (
+				756300691E830725003214DE /* Hard_RTests.m */,
+				7563006B1E830725003214DE /* Info.plist */,
+			);
+			path = "Hard RTests";
+			sourceTree = "<group>";
+		};
+		756300731E830725003214DE /* Hard RUITests */ = {
+			isa = PBXGroup;
+			children = (
+				756300741E830725003214DE /* Hard_RUITests.m */,
+				756300761E830725003214DE /* Info.plist */,
+			);
+			path = "Hard RUITests";
+			sourceTree = "<group>";
+		};
+		756300821E830DB4003214DE /* UIMenus */ = {
+			isa = PBXGroup;
+			children = (
+				756300831E830DD2003214DE /* mainMenu.h */,
+				756300841E830DD2003214DE /* mainMenu.m */,
+				7563008D1E8321B3003214DE /* studentLoginMenu.h */,
+				7563008E1E8321B3003214DE /* studentLoginMenu.m */,
+				7563009B1E834440003214DE /* quizScreen.h */,
+				7563009C1E834440003214DE /* quizScreen.m */,
+			);
+			name = UIMenus;
+			sourceTree = "<group>";
+		};
+		756300861E830DE7003214DE /* UI Handler */ = {
+			isa = PBXGroup;
+			children = (
+				756300871E8310BD003214DE /* centerPoint.h */,
+				756300881E8310BD003214DE /* centerPoint.m */,
+				7563008A1E831DF8003214DE /* viewHandler.h */,
+				7563008B1E831DF8003214DE /* viewHandler.m */,
+			);
+			name = "UI Handler";
+			sourceTree = "<group>";
+		};
+		756300931E8321E6003214DE /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				756300901E8321DE003214DE /* studentData.h */,
+				756300911E8321DE003214DE /* studentData.m */,
+				756300941E8323B1003214DE /* passwordData.h */,
+				756300951E8323B1003214DE /* passwordData.m */,
+				756300A21E835A77003214DE /* quizData.h */,
+				756300A31E835A77003214DE /* quizData.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		756300971E833AF3003214DE /* Authorisation */ = {
+			isa = PBXGroup;
+			children = (
+				756300981E833B0D003214DE /* studentAuth.h */,
+				756300991E833B0D003214DE /* studentAuth.m */,
+			);
+			name = Authorisation;
+			sourceTree = "<group>";
+		};
+		7563009E1E835A20003214DE /* Quiz  */ = {
+			isa = PBXGroup;
+			children = (
+				7563009F1E835A4E003214DE /* quizSlide.h */,
+				756300A01E835A4E003214DE /* quizSlide.m */,
+				756300A51E8419B4003214DE /* questionView.h */,
+				756300A61E8419B4003214DE /* questionView.m */,
+				756300A81E841A0E003214DE /* questionGenerator.h */,
+				756300A91E841A0E003214DE /* questionGenerator.m */,
+				756300AF1E84B236003214DE /* questionMarker.h */,
+				756300B01E84B236003214DE /* questionMarker.m */,
+				756300B21E8570E4003214DE /* questionData.h */,
+				756300B31E8570E4003214DE /* questionData.m */,
+				756300B51E857D02003214DE /* quizFinished.h */,
+				756300B61E857D02003214DE /* quizFinished.m */,
+			);
+			name = "Quiz ";
+			sourceTree = "<group>";
+		};
+		756300AB1E841AC2003214DE /* Math Helper */ = {
+			isa = PBXGroup;
+			children = (
+				756300AC1E841B47003214DE /* randomNumber.h */,
+				756300AD1E841B47003214DE /* randomNumber.m */,
+			);
+			name = "Math Helper";
+			sourceTree = "<group>";
+		};
+		756300B81E85A10D003214DE /* Teacher Menu */ = {
+			isa = PBXGroup;
+			children = (
+				756300B91E85A525003214DE /* teacherLogin.h */,
+				756300BA1E85A525003214DE /* teacherLogin.m */,
+				7580A6D11E8821170052FD97 /* classSelector.h */,
+				7580A6D21E8821170052FD97 /* classSelector.m */,
+				7580A6D41E8826CE0052FD97 /* classView.h */,
+				7580A6D51E8826CE0052FD97 /* classView.m */,
+				7580A6D71E888ECD0052FD97 /* testResult.h */,
+				7580A6D81E888ECD0052FD97 /* testResult.m */,
+			);
+			name = "Teacher Menu";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7563004B1E830724003214DE /* Hard R */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 756300791E830725003214DE /* Build configuration list for PBXNativeTarget "Hard R" */;
+			buildPhases = (
+				756300481E830724003214DE /* Sources */,
+				756300491E830724003214DE /* Frameworks */,
+				7563004A1E830724003214DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hard R";
+			productName = "Hard R";
+			productReference = 7563004C1E830725003214DE /* Hard R.app */;
+			productType = "com.apple.product-type.application";
+		};
+		756300641E830725003214DE /* Hard RTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7563007C1E830725003214DE /* Build configuration list for PBXNativeTarget "Hard RTests" */;
+			buildPhases = (
+				756300611E830725003214DE /* Sources */,
+				756300621E830725003214DE /* Frameworks */,
+				756300631E830725003214DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				756300671E830725003214DE /* PBXTargetDependency */,
+			);
+			name = "Hard RTests";
+			productName = "Hard RTests";
+			productReference = 756300651E830725003214DE /* Hard RTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7563006F1E830725003214DE /* Hard RUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7563007F1E830725003214DE /* Build configuration list for PBXNativeTarget "Hard RUITests" */;
+			buildPhases = (
+				7563006C1E830725003214DE /* Sources */,
+				7563006D1E830725003214DE /* Frameworks */,
+				7563006E1E830725003214DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				756300721E830725003214DE /* PBXTargetDependency */,
+			);
+			name = "Hard RUITests";
+			productName = "Hard RUITests";
+			productReference = 756300701E830725003214DE /* Hard RUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		756300441E830724003214DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = kilcal;
+				TargetAttributes = {
+					7563004B1E830724003214DE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = T5F4852ZMN;
+						ProvisioningStyle = Automatic;
+					};
+					756300641E830725003214DE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = T5F4852ZMN;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7563004B1E830724003214DE;
+					};
+					7563006F1E830725003214DE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = T5F4852ZMN;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7563004B1E830724003214DE;
+					};
+				};
+			};
+			buildConfigurationList = 756300471E830724003214DE /* Build configuration list for PBXProject "Hard R" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 756300431E830724003214DE;
+			productRefGroup = 7563004D1E830725003214DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7563004B1E830724003214DE /* Hard R */,
+				756300641E830725003214DE /* Hard RTests */,
+				7563006F1E830725003214DE /* Hard RUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7563004A1E830724003214DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7563005F1E830725003214DE /* LaunchScreen.storyboard in Resources */,
+				7563005C1E830725003214DE /* Assets.xcassets in Resources */,
+				7563005A1E830725003214DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		756300631E830725003214DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7563006E1E830725003214DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		756300481E830724003214DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				756300A11E835A4E003214DE /* quizSlide.m in Sources */,
+				756300571E830725003214DE /* ViewController.m in Sources */,
+				756300921E8321DE003214DE /* studentData.m in Sources */,
+				7580A6D31E8821170052FD97 /* classSelector.m in Sources */,
+				756300AE1E841B47003214DE /* randomNumber.m in Sources */,
+				756300541E830725003214DE /* AppDelegate.m in Sources */,
+				756300A41E835A77003214DE /* quizData.m in Sources */,
+				756300BB1E85A525003214DE /* teacherLogin.m in Sources */,
+				7563009D1E834440003214DE /* quizScreen.m in Sources */,
+				756300B41E8570E4003214DE /* questionData.m in Sources */,
+				756300511E830725003214DE /* main.m in Sources */,
+				756300961E8323B1003214DE /* passwordData.m in Sources */,
+				756300A71E8419B4003214DE /* questionView.m in Sources */,
+				756300B71E857D02003214DE /* quizFinished.m in Sources */,
+				7563008C1E831DF8003214DE /* viewHandler.m in Sources */,
+				756300851E830DD2003214DE /* mainMenu.m in Sources */,
+				756300B11E84B236003214DE /* questionMarker.m in Sources */,
+				756300AA1E841A0E003214DE /* questionGenerator.m in Sources */,
+				756300891E8310BD003214DE /* centerPoint.m in Sources */,
+				7580A6D61E8826CE0052FD97 /* classView.m in Sources */,
+				7580A6D91E888ECD0052FD97 /* testResult.m in Sources */,
+				7563008F1E8321B3003214DE /* studentLoginMenu.m in Sources */,
+				7563009A1E833B0D003214DE /* studentAuth.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		756300611E830725003214DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7563006A1E830725003214DE /* Hard_RTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7563006C1E830725003214DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				756300751E830725003214DE /* Hard_RUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		756300671E830725003214DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7563004B1E830724003214DE /* Hard R */;
+			targetProxy = 756300661E830725003214DE /* PBXContainerItemProxy */;
+		};
+		756300721E830725003214DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7563004B1E830724003214DE /* Hard R */;
+			targetProxy = 756300711E830725003214DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		756300581E830725003214DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				756300591E830725003214DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7563005D1E830725003214DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7563005E1E830725003214DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		756300771E830725003214DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		756300781E830725003214DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7563007A1E830725003214DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T5F4852ZMN;
+				INFOPLIST_FILE = "Hard R/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kilcal.Hard-R";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7563007B1E830725003214DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T5F4852ZMN;
+				INFOPLIST_FILE = "Hard R/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kilcal.Hard-R";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7563007D1E830725003214DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = T5F4852ZMN;
+				INFOPLIST_FILE = "Hard RTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kilcal.Hard-RTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hard R.app/Hard R";
+			};
+			name = Debug;
+		};
+		7563007E1E830725003214DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = T5F4852ZMN;
+				INFOPLIST_FILE = "Hard RTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kilcal.Hard-RTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hard R.app/Hard R";
+			};
+			name = Release;
+		};
+		756300801E830725003214DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = T5F4852ZMN;
+				INFOPLIST_FILE = "Hard RUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kilcal.Hard-RUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Hard R";
+			};
+			name = Debug;
+		};
+		756300811E830725003214DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = T5F4852ZMN;
+				INFOPLIST_FILE = "Hard RUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kilcal.Hard-RUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Hard R";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		756300471E830724003214DE /* Build configuration list for PBXProject "Hard R" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				756300771E830725003214DE /* Debug */,
+				756300781E830725003214DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		756300791E830725003214DE /* Build configuration list for PBXNativeTarget "Hard R" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7563007A1E830725003214DE /* Debug */,
+				7563007B1E830725003214DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7563007C1E830725003214DE /* Build configuration list for PBXNativeTarget "Hard RTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7563007D1E830725003214DE /* Debug */,
+				7563007E1E830725003214DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7563007F1E830725003214DE /* Build configuration list for PBXNativeTarget "Hard RUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				756300801E830725003214DE /* Debug */,
+				756300811E830725003214DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 756300441E830724003214DE /* Project object */;
+}
